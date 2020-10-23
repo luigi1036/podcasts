@@ -2,20 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./estilos/normalize.css">
     <link rel="stylesheet" href="./estilos/estilos.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
     <title>PodCast</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <img src="./imagenes/icono-tierra.png" alt="icono-tierra">
-
-        </nav>
+<body >
+    <header class="header">
+        <div class="header-div">
+            <img src="./imagenes/logo.svg" alt="icono-tierra">
+            <input type="checkbox" class="checkbox" id="check">
+            <label for="check" class="label">
+                <span class="label-span"></span>
+            </label>
+            <div class="containerItems">
+                <ul class="containerItems-item">
+                    <li class="containerItems-items">EPISODIOS</li>
+                    <li class="containerItems-items">NOSOTROS</li>
+                    <li class="containerItems-items">ENTREVISTAS</li>
+                    <li class="containerItems-items">TOPICOS</li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="tittle">Hello <span class="tittle-h1">world</span>
+             pale blue dot.</h1>
+        <p>Un podcast que explora el mundo de la programacion. Nuevos espisodios, todos los jueves cada 15 dias</p>
+        <input class="button" type="button" value="CONOCÉ MÁS">
     </header>
-    
+    <main class="main">
+       <div class="container">
+        <svg class="mySVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon fill="white" points="0,0 100,0 0,100" />
+        </svg>
+            <div class="iframe">
+                <h1 id="episodios">Episodios</h1>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/6eCHJ8yOYtksW8OT93Dbdu" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+            <svg class="mySVG1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polygon fill="white" points="100,100 100,0 0,100" />
+            </svg>
+        </div>
+        <div class="img-div">
+            <img src="./imagenes/phone.png" alt="phone" class="phone-img">
+        </div>
+        <article>
+            <div>
+                <h2>De dónde venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe,
+                    are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. 
+                    In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </article>
+        <section class="sections-invitados">
+            <h1>Invitados/os estelares</h1>
+            <img class="sections-invitados-img" src="./imagenes/grace-hopper.png" alt="grace-hopper">
+            <img class="sections-invitados-img" src="./imagenes/Katie-Bouman.png" alt="Katie-Bouman">
+            <img class="sections-invitados-img" src="./imagenes/Margaret_Hamilton.png" alt="Margaret_Hamilton">
+            <img class="sections-invitados-img" src="./imagenes/An E.R.A.Univac 1103 computer in the 1950s.png" alt="computer">
+            <img class="sections-invitados-img" src="./imagenes/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="computer">
+            <img class="sections-invitados-img" src="./imagenes/susan-kare.png" alt="susan-kare">
+        </section>
+        <section class="section-img">
+            <h1>Algunos de nuestros temas</h1>
+            <div class="section-img-imgs">
+                <img class="section-img-img" src="./imagenes/icon1.svg" alt="imagen1">
+                <p class="section-img-p">Trabajo Remoto</p>
+            </div>
+            <div class="section-img-imgs">
+                <img class="section-img-img" src="./imagenes/icon2.svg" alt="imagen1">
+                <p class="section-img-p">Repensando la programacion</p>
+            </div>
+            <div class="section-img-imgs">
+                <img class="section-img-img" src="./imagenes/icon3.svg" alt="imagen1">
+                <p class="section-img-p">Bases del Código</p>
+            </div>
+            <div class="section-img-imgs">
+                <img class="section-img-img" src="./imagenes/icon4.svg" alt="imagen1">
+                <p class="section-img-p">Seguridad informatica</p>
+            </div>
+        </section>
+        <section class="section-novedades">
+           
+            <div class="novedades">
+                <svg class="mySVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                    <polygon fill="white" points="0,0 100,0 0,100" />
+                </svg>
+                <h1>¿Querés las últimas nvedades?</h1>
+                <input class="button" type="button" value="ESCUCHÁ LOS EPISODIOS">
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy; 2019- Hello blue pale dot
+    </footer>
 </body>
 </html>
