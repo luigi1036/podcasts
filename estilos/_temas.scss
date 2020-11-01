@@ -1,0 +1,28 @@
+.temas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em 4%;
+
+    &-h2{
+        font-size: 2em;
+    }
+
+    &-div{
+      position: relative;
+      width: 100%;
+      margin-top: 2em ;
+      text-align: center;
+      
+
+    }
+  
+    &-img{
+      width: 6em;
+      height: 6em;
+    }
+  
+    &-h3{
+      font-size: 1.4em;
+    }
+  }
