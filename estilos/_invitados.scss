@@ -17,3 +17,22 @@
   }
 }
 
+@media screen and (min-width:768px) {
+  .sections{
+
+      &-imgs{
+      display: flex;
+      flex-flow: row wrap;
+    }
+    &-h1{
+      width: 90%;
+      margin: 10% 10% 2%;
+    }
+
+    &-img{
+      width: 33%;
+    }
+  }
+}
+
+

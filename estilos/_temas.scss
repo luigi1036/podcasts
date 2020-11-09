@@ -25,4 +25,27 @@
     &-h3{
       font-size: 1.4em;
     }
+    @media screen and (min-width:768px){
+    
+        flex-flow: row wrap;
+        justify-content: center;
+
+        &-h2{
+          width: 90%;
+          margin: 10% 5% 2%;
+        }
+
+        &-div{
+          width: 25%;
+
+        }
+        
+        &-h3{
+         margin: 3% auto 15%;
+        
+        }
+    }
+
   }
+
+ 

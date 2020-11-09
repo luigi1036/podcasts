@@ -18,3 +18,14 @@
     border: none;
     margin-top: 2em;
     }
+
+    @media screen and (min-width:768px){
+
+      .novedades{
+        height: 1rem;
+      }
+
+      .button{
+        width: 25%;
+      }
+    }
